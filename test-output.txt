@@ -1,0 +1,33 @@
+?   	gsb/batch50-go-safety-c-22	[no test files]
+=== RUN   TestPlanBuildsSerialCases
+--- PASS: TestPlanBuildsSerialCases (0.00s)
+=== RUN   TestPlanRejectsBlankPoint
+--- PASS: TestPlanRejectsBlankPoint (0.00s)
+=== RUN   TestPlanEnforcesAttemptCap
+--- PASS: TestPlanEnforcesAttemptCap (0.00s)
+=== RUN   TestPlanRejectsDuplicatePoint
+--- PASS: TestPlanRejectsDuplicatePoint (0.00s)
+=== RUN   TestPlanRejectsEmptyPayloadList
+--- PASS: TestPlanRejectsEmptyPayloadList (0.00s)
+=== RUN   TestRunReturnsAttemptsInChannelOrder
+--- PASS: TestRunReturnsAttemptsInChannelOrder (0.00s)
+=== RUN   TestRunRejectsSecondAttemptWhileOutstanding
+--- PASS: TestRunRejectsSecondAttemptWhileOutstanding (0.00s)
+=== RUN   TestRunRejectsOtherCaseOfSamePoint
+--- PASS: TestRunRejectsOtherCaseOfSamePoint (0.00s)
+=== RUN   TestSubmitRejectsUnknownAndDuplicateAttempt
+--- PASS: TestSubmitRejectsUnknownAndDuplicateAttempt (0.00s)
+=== RUN   TestJudgeBeforeChannelsComplete
+--- PASS: TestJudgeBeforeChannelsComplete (0.00s)
+=== RUN   TestJudgeEchoHit
+--- PASS: TestJudgeEchoHit (0.00s)
+=== RUN   TestJudgeTimeHit
+--- PASS: TestJudgeTimeHit (0.00s)
+=== RUN   TestJudgeNoChannelHit
+--- PASS: TestJudgeNoChannelHit (0.00s)
+=== RUN   TestAbortClosesCase
+--- PASS: TestAbortClosesCase (0.00s)
+=== RUN   TestSnapshotRestoreKeepsProgress
+--- PASS: TestSnapshotRestoreKeepsProgress (0.00s)
+PASS
+ok  	gsb/batch50-go-safety-c-22/tests	0.003s
